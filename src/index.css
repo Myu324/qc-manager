@@ -1,0 +1,54 @@
+html,body,#root{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.anticon{
+    color: white;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.ant-layout{
+    height: 100%;
+}
+.logo img{
+    height: 100%;
+    border-radius: 50%;
+}
+.login{
+    background-image: url(./images/src=http___up.enterdesk.com_photo_2011-5-29_enterdesk.com-F65D26B61244263D3A0F77230BCB9F16.jpg&refer=http___up.enterdesk.webp);
+    position: relative;
+    height: 100%;
+    display: inline-block;
+    width: 100%;
+}
+.ant-card{
+    background-color: rgba(255, 255, 255, 0.135);
+}
+.ant-card-body{
+    display: flex;
+    flex-direction: column;
+}
+.ant-form-item-control-input-content{
+    display: flex;
+}
+.anticon-right{
+    color: black;
+}
+.anticon-left{
+    color: black;
+}
+.ant-layout-content{
+    max-height: 780px;
+    overflow: auto;
+}
+.ant-upload .anticon-loading,.anticon-plus{
+    color: black;
+}
+.ant-select-arrow .anticon-down{
+    color: black;
+}
